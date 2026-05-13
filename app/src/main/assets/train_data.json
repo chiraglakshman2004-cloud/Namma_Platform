@@ -1,0 +1,86 @@
+{
+  "stations": [
+    { "id": "mys", "name": "Mysuru", "nameKn": "ಮೈಸೂರು" },
+    { "id": "mya", "name": "Mandya", "nameKn": "ಮಂಡ್ಯ" },
+    { "id": "hsn", "name": "Hassan", "nameKn": "ಹಾಸನ" },
+    { "id": "smg", "name": "Shivamogga", "nameKn": "ಶಿವಮೊಗ್ಗ" },
+    { "id": "sbc", "name": "Bengaluru", "nameKn": "ಬೆಂಗಳೂರು" }
+  ],
+  "trains": [
+    {
+      "id": "1", "number": "16231", "name": "Mayiladuturai Express", "nameKn": "ಮೈಲಾರುತುರೈ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "1", "arrivalTime": "10:30 AM", "stationId": "mys",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "S4", "S5", "S6", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "2", "number": "12007", "name": "Shatabdi Express", "nameKn": "ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "2", "arrivalTime": "11:00 AM", "stationId": "mys",
+      "coachSequence": ["ENGINE", "E1", "E2", "C1", "C2", "C3", "C4", "C5", "C6", "ENGINE"]
+    },
+    {
+      "id": "3", "number": "16022", "name": "Kaveri Express", "nameKn": "ಕಾವೇರಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "3", "arrivalTime": "11:45 AM", "stationId": "mys",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "S4", "S5", "B1", "B2", "A1", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "4", "number": "16231", "name": "Mayiladuturai Express", "nameKn": "ಮೈಲಾರುತುರೈ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "2", "arrivalTime": "12:15 PM", "stationId": "mya",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "S4", "S5", "S6", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "5", "number": "16535", "name": "Gol Gumbaz Express", "nameKn": "ಗೋಲ್ ಗುಂಬಜ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "1", "arrivalTime": "04:30 PM", "stationId": "mya",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "B1", "A1", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "6", "number": "16216", "name": "Chamundi Express", "nameKn": "ಚಾಮುಂಡಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "3", "arrivalTime": "07:20 PM", "stationId": "mya",
+      "coachSequence": ["ENGINE", "C1", "C2", "C3", "D1", "D2", "GENERAL", "LADIES"]
+    },
+    {
+      "id": "7", "number": "12725", "name": "Siddhaganga Intercity", "nameKn": "ಸಿದ್ಧಗಂಗಾ ಇಂಟರ್‌ಸಿಟಿ",
+      "platform": "1", "arrivalTime": "01:30 PM", "stationId": "hsn",
+      "coachSequence": ["ENGINE", "D1", "D2", "D3", "D4", "D5", "GENERAL", "LADIES"]
+    },
+    {
+      "id": "8", "number": "16515", "name": "Karwar Express", "nameKn": "ಕಾರವಾರ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "2", "arrivalTime": "10:15 AM", "stationId": "hsn",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "S4", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "9", "number": "16213", "name": "Arsikere Passenger", "nameKn": "ಅರಸೀಕೆರೆ ಪ್ಯಾಸೆಂಜರ್",
+      "platform": "3", "arrivalTime": "05:00 AM", "stationId": "hsn",
+      "coachSequence": ["ENGINE", "GENERAL", "GENERAL", "GENERAL", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "10", "number": "12020", "name": "Shatabdi Express", "nameKn": "ಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "1", "arrivalTime": "06:00 AM", "stationId": "sbc",
+      "coachSequence": ["ENGINE", "E1", "E2", "C1", "C2", "C3", "ENGINE"]
+    },
+    {
+      "id": "11", "number": "12608", "name": "Lalbagh Express", "nameKn": "ಲಾಲ್‌ಬಾಗ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "4", "arrivalTime": "06:30 AM", "stationId": "sbc",
+      "coachSequence": ["ENGINE", "D1", "D2", "D3", "D4", "C1", "GENERAL", "LADIES"]
+    },
+    {
+      "id": "12", "number": "16525", "name": "Island Express", "nameKn": "ಐಲ್ಯಾಂಡ್ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "2", "arrivalTime": "08:00 PM", "stationId": "sbc",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "B1", "A1", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "13", "number": "16227", "name": "Talguppa Express", "nameKn": "ತಾಳಗುಪ್ಪ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "1", "arrivalTime": "05:15 AM", "stationId": "smg",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "B1", "LADIES", "GENERAL"]
+    },
+    {
+      "id": "14", "number": "12090", "name": "Janshatabdi Express", "nameKn": "ಜನಶತಾಬ್ದಿ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "2", "arrivalTime": "05:15 PM", "stationId": "smg",
+      "coachSequence": ["ENGINE", "C1", "C2", "C3", "D1", "D2", "GENERAL", "LADIES"]
+    },
+    {
+      "id": "15", "number": "16581", "name": "Shivamogga Express", "nameKn": "ಶಿವಮೊಗ್ಗ ಎಕ್ಸ್‌ಪ್ರೆಸ್",
+      "platform": "1", "arrivalTime": "11:50 PM", "stationId": "smg",
+      "coachSequence": ["ENGINE", "GENERAL", "S1", "S2", "S3", "S4", "LADIES", "GENERAL"]
+    }
+  ]
+}
